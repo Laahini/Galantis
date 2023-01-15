@@ -8,12 +8,15 @@
 
   <!--STYLES-->
   <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="css/stars.css"/>
   <link rel="stylesheet" href="css/nav.css"/>
   <link rel="stylesheet" href="css/mediaquery.css"/>
+  <link rel="stylesheet" href="css/typing.css"/>
   <link rel="stylesheet" href="particles/particles.css"/>
 
-  <script src="scripts.js"></script>
 
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +27,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <script src="scripts/typing.js" type="text/javascript"></script>
 </head>
 <script type="text/javascript">
   if (!Array.isArray(window.qbOptions)) {
@@ -33,26 +37,17 @@
   window.qbOptions.push({"baseUrl":"https://botsrv2.com","use":"NePdxmo24Ybj8K6Q/5doqer3MZVbR6ZL0"});
 </script>
 <script type="text/javascript" src="https://static.botsrv2.com/website/js/widget2.75d4ea82.min.js" integrity="sha384-s86P3mQ5cJDcJrB5sYTVUiNu3ZKVOcWHQSnZPNS7TZLBhbtRfSlLhpN06B5wRE7t" crossorigin="anonymous" defer data-no-minify="1"></script>
-
+<script src="scripts/stars.js"></script>
 <body>
   <header id="nav">
       <a href="#" class="logo"><img src="media/FYF.png" style="width:50px; height:50px;"></a>
       <ul>
-        <li>
-          <div class="dropdown-menu">
-            <button class="menu-btn" onclick="redirectProgram()">Program <i class="fa fa-caret-down"></i></button>
-            <div class="menu-content">
-              <a class="links-hidden" href="program/schedule.html"> Schedule </a>
-              <a class="links-hidden" href="program/workshops.html"> Workshops </a>
-              <a class="links-hidden" href="program/speakers.html"> Speakers </a>
-              <a class="links-hidden" href="program/sponsors.html"> Sponsors </a>
-            </div>
-          </div>
-        </li>
-        <li><a href="watch/workshops.html">Watch</a></li>
-        <li><a href="careers/careers.html">Careers</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <!--<li><a href="../login.html">Login</a></li>-->
+        <li><a href="pages/mission.html">Mission</a></li>
+        <li><a href="pages/vehicles.html">Vehicles</a></li>
+        <li><a href="pages/booking.html">Booking</a></li>
+        <li><a href="pages/training.html">Training</a></li>
+        <li><a href="pages/safety.html">Safety</a></li>
+        <li><a href="pages/launch.html">Launch</a></li>
         <li>|</li>
         <li><a href="index.html">Design Brief</a></li>
         <li><a href="cte.html">CTE</a></li>
@@ -63,13 +58,13 @@
 
     <div class="topnav" id="myTopnav">
       <a href="index.html" class="active"><img src="media/FYF.png" style="width:40px;"></a>
-      <a  href="program/schedule.html"> Schedule </a>
-      <a  href="program/workshops.html"> Workshops </a>
-      <a  href="program/speakers.html"> Speakers </a>
-      <a href="program/sponsors.html"> Sponsors </a>
-      <a href="watch/workshops.html"> Watch Workshops</a>
-      <a href="careers/careers.html">Careers</a>
-      <a href="contact.html">Contact</a>
+      <a href="pages/mission.html">Mission</a>
+      <a href="pages/vehicles.html">Vehicles</a>
+      <a href="pages/booking.html">Booking</a>
+      <a href="pages/training.html">Training</a>
+      <a href="pages/safety.html">Safety</a>
+      <a href="pages/launch.html">Launch</a>
+      <a href="pages/contact.html">Contact</a>
       <a href="index.html">Design Brief</a>
       <a href="cte.html">CTE</a>
       <a href="cvtsa.html">CV TSA</a>
@@ -91,112 +86,29 @@
     </script>
 
   <section id="banner">
-    <div class= "halfSplitGrid">
-      <div id="item1">
-        <img src="media/work.jpg" class="placeholder">
-      </div>
-      <div id="item2">
-        <h1>A Weekend of Improvement</h1>
-        <h2>May 11, 2022 - May 14, 2022</h2>
-        <p>Find Your Future is very excited to present our first conference
-          on personal development and leadership. During this weekend long extravaganza,
-          there will be a similitude of opportunities available to participants via virtual meetings and interactions.
-        </p>
-        <br><br>
-        <a class="abutton" href="#">Register Now</a>
-      </div>
+    <div class='solar-syst'>
+      <div class='sun'></div>
+      <div class='mercury'></div>
+      <div class='venus'></div>
+      <div class='earth'></div>
+      <div class='mars'></div>
+      <div class='jupiter'></div>
+      <div class='saturn'></div>
+      <div class='uranus'></div>
+      <div class='neptune'></div>
+      <div class='pluto'></div>
+      <div class='asteroids-belt'></div>
     </div>
   </section>
 
   <section id="countdown">
-    <div class="fourSplitGrid">
-      <div class="hvr-grow-shadow counts">
-        <h1 id="days">00</h1>
-        <p>Days</p>
-      </div>
-      <div class="hvr-grow-shadow counts">
-        <h1 id="hours">00</h1>
-        <p>Hours</p>
-      </div>
-      <div class="hvr-grow-shadow counts">
-        <h1 id="minutes">00</h1>
-        <p>Minutes</p>
-      </div>
-      <div class="hvr-grow-shadow counts">
-        <h1 id="seconds">00</h1>
-        <p>Seconds</p>
-      </div>
+    <div class="type-container">
+      <h1>Space is <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
     </div>
-    <p id="demo"></p>
   </section>
 
   <section id="whyJoin">
-    <div class="twoToThreeGrid">
-      <div id="wJDescrip">
-        <h1>Why Join Us</h1>
-        <p>Find Your Future's week long conference on self improvement and leadership is an exciting opportunity for participants of all ages.
-           During the conference, participants will be able to learn new, important skills regarding time management, setting goals, career
-           and more. Furthermore, FYF is collaborating with both major and local businesses to bring participants opportunities to explore
-           new careers at varying levels. With this is wonderful experience of networking with individuals of varying expertises in our cluster
-           meetings. Lastly, FYF has worked greatly to provide a compendium of workshops and speakers to inspire and help you on your personal journey.</p>
-      </div>
-      <div id="wJGrid">
-        <div class="splitGrid2_2">
-          <div class="benefitPart">
-            <div class="threetoTwoGrid">
-              <div class="benefitPartHeader">
-                <h2>Lead Generation</h2>
-              </div>
-              <div>
-                <i class="fas fa-user-friends fa-4x"></i>
-              </div>
-            </div>
-            <div class="benefitPartDescript">
-              <p>Get new highly-engaged, warm contacts who have shown a real interest in your brand or solutions</p>
-            </div>
-          </div>
-          <div class="benefitPart">
-            <div class="threetoTwoGrid">
-              <div class="benefitPartHeader">
-                <h2>Thought Leadership</h2>
-              </div>
-              <div>
-                <i class="fas fa-lightbulb fa-4x"></i>
-              </div>
-            </div>
-            <div class="benefitPartDescript">
-              <p>Inspire our audience with your products, solutions & thought-leadership live & on-demand</p>
-            </div>
-          </div>
-          <div class="benefitPart">
-            <div class="threetoTwoGrid">
-              <div class="benefitPartHeader">
-                <h2>Brand Awareness</h2>
-              </div>
-              <div>
-                <i class="fas fa-eye fa-4x"></i>
-              </div>
-            </div>
-            <div class="benefitPartDescript">
-              <p>Get your brand in-front of new potential customers and showcase your products or solutions</p>
-            </div>
-          </div>
-          <div class="benefitPart">
-            <div class="threetoTwoGrid">
-              <div class="benefitPartHeader">
-                <h2>Build Relationships</h2>
-              </div>
-              <div>
-                <i class="fas fa-user-plus fa-4x"></i>
-              </div>
-            </div>
-            <div class="benefitPartDescript">
-              <p>Your team can mingle with the community and create valuable, lasting relationships</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </section>
 
   <section id="about">
@@ -226,86 +138,7 @@
     </div>
   </section>
 
-  <section id="careers"><!--CLUSTER MEETINGS, etc-->
-    <div class="bckgOpacBox">
-      <h1>Explore A Future Career</h1>
-      <p>Find Your Future is offering a special opportunity during our one-week leadership conference. During this conference, atendees will have the generous opportunity to attend workshops regarding personal growth and career development.
-      We want you to be able to explore different career opportunities at this workshop because we understand the struggles of high school and college students that aim to
-      find their true passion and what would best fit their goals. Furthermore, it is important to note that those who are already employed and have been for a long amount of time can still utilize this opportunity
-      to fulfill their true passions.</p>
-    </div>
-  </section>
 
-  <section id="clusters">
-    <!--icon with description of 16 clusters-->
-  </section>
-
-  <section id="agendaDB">
-    <h1>Agenda at a Glance</h1>
-    <div class="autoThirdGrid">
-      <div class="agendaItem">
-        <h3>Wednesday, May 11th</h3>
-        <ul>
-          <li>Day-of Registration</li>
-          <li>Opening Ceremony</li>
-          <li>Keynote Speaker</li>
-          <li>Workshops</li>
-        </ul>
-      </div>
-      <div class="agendaItem">
-        <h3>Thursday, May 12th</h3>
-        <ul>
-        <li>Cluster groups</li>
-        <li>Career Prep Workshops</li>
-        <li>Breakout Sessions</li>
-        <li>Virtual Exploration Hall</li>
-        </ul>
-      </div>
-      <div class="agendaItem">
-        <h3>Friday, May 13th</h3>
-        <ul>
-        <li>Career development workshops</li>
-        <li>Self-Care time</li>
-        <li>Cluster groups</li>
-        <li>Closing ceremony</li>
-        </ul>
-      </div>
-    </div>
-    <div id="agendaBtnContainer">
-      <a href="program/schedule.html" class="abutton">View Full Agenda</a>
-    </div>
-
-  </section>
-
-  <section id="quote">
-    <div class="mdBox">
-      <h4>Find Your Future Ambassador</h4>
-      <h1>Daniela Larson</h1><br>
-      <p> <i class="fas fa-quote-left"></i> Find Your Future is a wonderful opportunity for people of all work experience and they truly care about helping you reach your personal and career goals. <i class="fas fa-quote-right"></i></p>
-    </div>
-  </section>
-
-  <section id="speakers">
-    <h1>2022 Keynote Speakers</h1>
-    <div class="fourSplitGrid">
-      <div>
-        <img src="media/speakers/dwayne.png">
-        <h2>Dwayne Johnson</h2>
-      </div>
-      <div>
-        <img src="media/speakers/oprah.png">
-        <h2>Oprah Winfrey</h2>
-      </div>
-      <div>
-        <img src="media/speakers/barbara.png">
-        <h2>Barbara Corcoran</h2>
-      </div>
-      <div>
-        <img src="media/speakers/ai-jen poo.png">
-        <h2>Ai-Jen Poo</h2>
-      </div>
-    </div>
-  </section>
 
 
   <section id="contact">
@@ -338,9 +171,7 @@
     </div>
   </section>
 
-  <section id="sponsors">
-    <img src="media/sponsors.png">
-  </section>
+
 
   <section id="footer">
     <div id="responsiveFooter">

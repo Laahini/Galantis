@@ -16,7 +16,7 @@
 }
 
 body {
-    background: var(--cream);
+
     min-height: 200vh;
 }
 
@@ -37,7 +37,6 @@ h1 {
     position: relative;
     width: 100%;
     height: 110vh;
-    background: #fff;
     background-size: cover;
 }
 
@@ -76,15 +75,10 @@ h1 {
 }
 
 #countdown {
-    background: linear-gradient(#fff, var(--cream));
     margin-top: -5%;
     padding: 0% 5%;
+    max-height: 40vh;
 }
-
-#countdown h1 {
-    font-size: 30px;
-}
-
 #whyJoin {
     min-height: 60vh;
 }
