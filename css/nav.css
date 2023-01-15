@@ -1,0 +1,145 @@
+header
+{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  transition: 0.3s;
+  padding: 15px 100px;
+  z-index:1000000;
+  background-color: rgba(0, 0, 0, 0.4)
+}
+header.sticky
+{
+  padding: 5px 100px;
+  background:var(--orange1);
+}
+header .logo
+{
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size:2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul
+{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+header ul li
+{
+  position: relative;
+  list-style:none;
+}
+header ul li a
+{
+  position: relative;
+  margin:0 15px;
+  text-decoration: none;
+  color:#fff;
+  letter-spacing:2px;
+  font-weight: 500px;
+
+}
+header.sticky .logo,
+header.sticky ul li a
+{
+  color: white;
+}
+header.sticky .menu-btn
+{
+  background: var(--orange1);
+  color:#fff;
+}
+.menu-btn {
+   color: #fff;
+   padding: 16px;
+   font-size: 18px;
+   letter-spacing:2px;
+   font-weight: 500px;
+   font-family: sans-serif;
+   border: none;
+   background-color: transparent;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   outline: none;
+}
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+}
+.menu-content {
+   display: none;
+   position: absolute;
+   background-color: var(--orange1);
+   min-width: 160px;
+   z-index: 1;
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+.links,.links-hidden{
+   display: inline-block;
+   color: #fff;
+   padding: 10px 16px;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+}
+.links-hidden{
+   display: block;
+}
+.links{
+   display: inline-block;
+}
+.links-hidden:hover,.links:hover {
+   background-color: black;
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+.dropdown-menu:hover .menu-btn {
+   background-color: var(--orange1);
+   color:#fff;
+}
+.dropdown-menu:hover .menu-btn a{
+   background-color: var(--orange1);
+   color:#fff;
+}
+#navMobile
+{
+  display: none;
+}
+@media screen and (max-width: 480px)
+{
+  #nav
+  {
+    display:none;
+  }
+  #navMobile
+  {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    background: var(--blue1);
+  }
+  #navMobile a
+  {
+    position: relative;
+    margin:5px 15px;
+    text-decoration: none;
+    color: var(--blue1);
+    background:var(--cream);
+    letter-spacing:2px;
+    font-weight: 500px;
+    text-align: center;
+    padding:2%;
+  }
+}

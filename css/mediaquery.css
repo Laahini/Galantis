@@ -1,0 +1,936 @@
+@media screen and (max-width: 480px)
+{
+  .halfSplitGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    padding:5% 5%;
+  }
+  .autoHalfSplitGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    padding:10% 5%;
+  }
+  .fourSplitGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    padding:5% 5%;
+  }
+  .autoThirdGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    padding:5% 5%;
+  }
+  .splitGrid2_2
+  {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    padding:1% 1%;
+  }
+  .formAutoHalfSplit
+  {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 2% 2%;
+    grid-gap: 1%;
+  }
+  .threeFourthGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding:5% 5%;
+  }
+  .teacherCardsGrid{
+    display: grid;
+    grid-column-gap: 3%;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+  }
+  .oneToThreeGrid
+  {
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: auto;
+      padding: 5% 5%;
+  }
+  .threetoTwoGrid
+  {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    padding:5% 5%;
+  }
+  .twoToThreeGrid
+  {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    padding:5% 5%;
+  }
+  .splitGrid3
+  {
+    display:grid;
+    grid-gap: 5%;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    padding:1% 1%;
+  }
+  .splitGrid2by2
+  {
+    display:grid;
+    grid-gap: 2%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%
+    padding:1% 1%;
+  }
+  .clusterCardGrid
+  {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    padding:1% 1%;
+  }
+  .videoScrollGrid
+  {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 10% 10% 10%;
+    padding:2% 3%;
+    grid-row-gap: 1%;
+    grid-column-gap: 2%;
+  }
+  h1
+  {
+    font-size: 35px;
+  }
+  h2
+  {
+    font-size: 30px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+  }
+  footer{display:none;}
+  footer p{text-align: center;}
+  #footer
+  {
+    background: var(--blue1);
+    display:contents;
+  }
+  #responsiveFooter
+  {
+    padding:5%;
+    background: var(--blue1);
+  }
+  #footer p{background: var(--blue1); padding:5%;}
+  .accordionFt
+  {
+    background-color: black;
+    opacity:0.6;
+    color:var(--cream);
+  }
+  #footer .panel {
+    background-color: var(--cream);
+    color: var(--blue1);
+  }
+  #footer a{text-decoration: none; color:var(--blue1);}
+  #footer p{text-align: center; color:var(--cream);}
+  #banner{
+    height:85vh;
+    padding:0%;
+  }
+  .question button
+  {
+    background: linear-gradient(to left, var(--orange1), var(--green1));
+  }
+  #item1, #item2, #item1a, #item2a, #item1b, #item2b{
+    padding-top:0%;
+  }
+  #speakers img
+  {
+    width:200px;
+    height:200px;
+    padding-top:10px;
+  }
+  #sponsors img
+  {
+    width:200px;
+    height:80px;
+    padding-right:5px;
+    padding-top:10px;
+  }
+  #wJGrid
+  {
+    padding:5%;
+    height:110vh;
+  }
+  #wJDescrip
+  {
+    padding:2%;
+  }
+  #whyJoin .splitGrid2_2
+  {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    padding:1% 1%;
+  }
+  #whyJoin .splitGrid2_2 .benefitPartDescript
+  {
+    padding:5% 5%;
+  }
+  .benefitPart i
+  {
+    display:none;
+  }
+  .accordtimeline li {
+  	display: inline-block;
+  	width: 20%;
+  	height: 50%;
+    margin:0% 1%;
+    margin-top: 40px;
+    padding:7% 1%;
+    color:var(--blue1);
+  	background: var(--cream);
+  	text-align:center;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+  #banner .halfSplitGrid
+  {
+    top:35px;
+  }
+  #banner .halfSplitGrid #item2 h1
+  {
+    font-size: 40px;
+  }
+  #banner .halfSplitGrid #item2 h2
+  {
+    font-size: 20px;
+  }
+  #APID-Dualbanner img
+  {
+    height:150px;
+  }
+  #scheduleBanner
+  {
+    height: 110vh;
+  }
+  #workshopIntro .halfSplitGrid div
+  {
+    padding:5%;
+  }
+  #countdown
+  {
+    padding:0%;
+    padding-top:15%;
+  }
+  #countdown .fourSplitGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-column-gap: 1%;
+  }
+  .counts p{font-size: 14px; text-align: center;}
+  .counts
+  {
+    background:var(--blue1);
+    padding: 5% 0%;
+    margin: 5% 5%;
+    text-align: center;
+    font-family: sans-serif;
+    color:var(--cream);
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.032),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.026),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  }
+  #about .bckgOpacBox
+  {
+    padding:5% 2%;
+  }
+  #about .bckgOpacBox h1{text-align: left; padding:0% 5%;}
+  #when
+  {
+    margin-top: 5%;
+  }
+  #when button
+  {
+    margin:5% auto;
+  }
+  #mtbiQuiz .halfSplitGrid
+  {padding:5% 2%;}
+  #careers .bckgOpacBox
+  {
+    padding:5% 2%;
+    text-align:center;
+  }
+  #agendaDB{padding:5% 2%;}
+  #agendaBtnContainer{padding:5%;}
+  #agendaDB .autoThirdGrid
+  {grid-gap:2%;}
+  .agendaItem
+  {
+    padding:3% 10%;
+  }
+  #agendaBtnContainer button
+  {padding:4%;}
+  #quote
+  {
+    padding:15% 5%;
+  }
+  #photoRelease {
+      text-align: left;
+  }
+  .mdBox{background-color: black; padding: 5%; opacity: 0.7; color:white;}
+  .mdBox p{line-height: 25px;}
+  #contact{padding-left:0; padding-right:0; padding-bottom:5%;}
+  #mdCbox{padding:2%; padding-top:5%;}
+  .container{padding:0; padding-top:5%;}
+  .wrapper {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  .wrapper > * {
+    padding: 1em;
+  }
+  .contact-info h3,
+  .contact-info ul,
+  {
+    text-align: left;
+  }
+  .contact form button,
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: solid 1px #627EDC;
+    border-radius: 4px;
+  }
+  #sponsors
+  {
+    text-align: center;
+    margin: auto;
+    background: var(--green1);
+    padding:5% 0%;
+    color: var(--cream);
+  }
+  #sponsors img
+  {width:100%;
+  height:150px;}
+
+  .eventGrid
+  {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+  .card
+  {
+    width:100%;
+    margin:5% auto;
+    padding:5% 5%;
+  }
+  .type i
+  {
+    font-size:50px;
+  }
+  .type h2
+  {
+    font-size: 25px;
+  }
+  #workshopPBanner
+  {
+    height: 85vh;
+  }
+  #workshopPBanner img
+  {
+    margin-top:4%;
+  }
+  .splitGrid3
+  {
+    margin-top:3%;
+    margin-bottom:3%;
+  }
+  .workshopCard
+  {
+    margin-top:-3%;
+    margin-bottom:-3%;
+  }
+  #pDWorkshops
+  {
+    height:285vh;
+  }
+  #pDWorkshops .splitGrid3
+  {
+    padding:5% 4.5%;
+    padding-left:2.5%;
+    height:125vh;
+  }
+  #cDWorkshops .splitGrid3
+  {
+    padding:5% 4.5%;
+    padding-left:2.5%;
+    height:125vh;
+  }
+  #clusterCards .splitGrid2by2
+  {
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .smallWorkshopImg
+  {
+    width:120px;
+    height:100px;
+    border-radius: 80px;
+  }
+  .clusterCardGrid
+  {
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto;
+  }
+  .clusterCardGrid h2
+  {
+    font-size: 20px;
+  }
+  .leadCCard
+  {
+    height:240px;
+    padding:5% 5%;
+  }
+  #requestWorkshop a
+  {
+    padding:4%;
+  }
+  #clusterCards
+  {
+    height: 265vh;
+  }
+  #sponsorBanner
+  {
+    height: 20vh;
+  }
+  .spbenefits
+  {
+    height: 30vh;
+  }
+  #benefits
+  {
+    height:115vh;
+  }
+  #programBanner
+  {
+    height:15vh;
+  }
+  .page-content
+  {
+    grid-gap: 2rem 0.5rem;
+    padding: 4rem 2rem;
+  }
+  #workshopWatchBanner
+  {
+    height:90vh;
+  }
+  #videoPlayer
+  {
+  width:100%;
+  }
+  #videoPlayer .placeholder
+  {
+    width:100%;
+    height:100%;
+  }
+  .videoOverview
+  {
+    background:var(--cream);
+    color: var(--blue1);
+    padding: 25% 0%;
+    width:100%;
+    border:none;
+    margin:20% 0%;
+  }
+  #commentChat
+  {
+    padding:2%;
+    padding-bottom: 5%;
+  }
+  #commentChat h1
+  {
+    font-size:50px;
+  }
+  #commentChat li
+  {
+    font-size:14px;
+  }
+  #addComment input
+  {
+    width:110px;
+  }
+  #addComment span
+  {
+    background: var(--cream);
+    font-weight: bolder;
+    color:var(--blue1);
+    font-size: 25px;
+    padding: 1.5% 4%;
+    padding-top:1.1%;
+    padding-bottom: 1.5%;
+    margin-left:2%;
+  }
+  .videocontent2 iframe
+  {
+    width:310px;
+    height:250px;
+  }
+  #careerBanner
+  {
+    height:90vh;
+  }
+  .question button
+  {
+    padding:5px;
+    font-size: 16px;
+    width:250px;
+    height:60px;
+    margin:2% auto;
+    color:var(--cream);
+    border:none;
+    border-radius: 10px;
+    background: linear-gradient(to left, var(--orange1), var(--green1));
+  }
+  .hideMobile
+  {
+    display:None;
+  }
+  #contactBanner
+  {
+    position: relative;
+    padding-top: 5%;
+    width:100%;
+    height:70vh;
+    background: #fff;
+    background-size: cover;
+  }
+  .contactCard
+  {
+    text-align: center;
+    padding:5% 0%;
+  }
+  .contactImg
+  {
+    width:360px;
+    height: 250px;
+  }
+  #trioContactInfo .autoThirdGrid
+  {
+    padding:5%;
+    grid-row-gap: 1%;
+  }
+  #particles-js
+  {display:none;}
+  #whatCV.halfSplitGrid{padding:5% 2%;}
+  #whatTSA.halfSplitGrid{padding:5% 2%;}
+  .item{padding:5%;}
+  #mottoD h1
+  {
+      font-size: 30px;
+  }
+  #whatTSA h4
+  {
+    line-height: 28px;
+  }
+  #teachers .autoThirdGrid{grid-gap:5%; }
+  #teachers
+  {
+    min-height:140vh;
+  }
+  #pathways{padding:5% 0%;}
+  #pathways p{font-size: 14px; line-height: 20px;}
+  .slides {
+  	height: 50%;
+    width:100%;
+    border-radius: 10px;
+    padding-bottom: 5%;
+  }
+  #officers .item
+  {
+    padding:2%;
+  }
+  .slides .slider
+  {
+  	height: 60vh;
+  	white-space: nowrap;
+  	font-size: 0;
+  	transition: 0.8s;
+  }
+  .slides .prevNext {
+  	top: 30%;
+  	width: 100%;
+  }
+  .slides .prevNext a {
+  	background: var(--blue1);
+  	position: absolute;
+  	width:       40px;
+  	height:      40px;
+  	line-height: 40px;
+    margin: 0px 5px;
+  	left: 0;
+  }
+  .slides .bullets {
+  	position: absolute;
+  	z-index: 2;
+  	bottom: 0;
+  	padding:20px 0;
+  	width: 100%;
+  	text-align: center;
+  }
+  .slidesimg
+  {
+    width:275px;
+    height:275px;
+  }
+  .column123
+  {
+    float: left;
+    width: 100%;
+    padding: 1%;
+  }
+  #cteCarousel{padding:5% 2%;}
+  .cteCCard,.cvCCard
+  {width:100%; height:300px;}
+  #timelineBanner{padding:5%;}
+  .timeLineBox{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  .timeLineBox:hover{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  .timeLineBox p{font-size: 16px;text-align:center;}
+  .timeLineBox h2{font-size:20px;}
+  .timeLineLine{
+    border-right: 6px dotted var(--green1);
+    height: 30px;
+    margin-right: 50%;
+    margin-bottom: 5px;
+  }
+  #regionals2022
+  {text-align: center; padding:5% 2%; padding-bottom: 10%;}
+  #about p{font-size: 16px; line-height: 20px;}
+  #research-inspo, #frameworks, #media, #forms{padding:5% 3%;}
+  #scheduleBanner
+  {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+  }
+  #filterBtnGroup button
+  {margin-top:1%; margin-bottom:1%; width:100%;}
+  #types{padding-top:5%; padding-bottom:5%;}
+  .card-footer {
+      margin-top: 25px;
+      padding-top: 19px;
+      padding-bottom: 1em;
+      margin-bottom: -25px;
+      width: 31.7em;
+  }
+  #programBanner
+  {min-height: 25vh;}
+  #programBannerHook
+  {
+    padding:5%;
+  }
+  #clusterCards .splitGrid2by2
+  {
+    grid-row-gap: 5%;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  #clusterCards
+  {min-height:100vh;}
+  .leadCCard .smallWorkshopImg
+  {
+      width: 90px;
+      height: 90px;
+      border-radius: 80px;
+  }
+  .socialButton {
+    width: 12%;
+    height: 30px;
+  }
+  #speakersThing .fourSplitGrid
+  {
+    display:grid;
+    grid-gap: 0.5%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    padding:1% 1%;
+  }
+  #workshopsHook #programBanner
+  {
+    min-height:40vh;
+    padding:5%;
+  }
+  #sponsorGrid .SplitGriddy{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding:5% 5%;
+  }
+  .sponsorbox {
+    max-width: 350px;
+    height: 150px;
+    padding: 5%;
+    margin: 10px;
+  }
+  #benefits .twoToThreeGrid
+  {
+    grid-row-gap: 5%;
+  }
+  #benefits .splitGrid2_2
+  {
+    grid-row-gap: 4%;
+  }
+  #benefits
+  {
+    min-height: 140vh;
+  }
+  #cards
+  {
+  padding-top:20%;
+  }
+  .videoScrollGrid {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto auto
+  }
+  .videoOverview
+  {
+    background:var(--cream);
+    color: var(--blue1);
+    padding: 5% 0%;
+    margin:1% 0%;
+  }
+  #videoPlayer
+  {
+    margin-top:15%;
+  }
+  #commentHeader
+  {
+    padding:0% 5%;
+    padding-bottom:2%;
+  }
+  #commentHeader h1
+  {
+    font-size: 35px;
+  }
+  #commentHeader h3
+  {
+    font-size: 16px;
+  }
+  #commentChat
+  {
+    padding:1%;
+  }
+  #comments li
+  {
+    list-style: none;
+    padding:2% 2.5%;
+    font-size: 14px;
+    border-radius: 10px;
+    width:95%;
+    margin:1% auto;
+  }
+  #addComment
+  {
+    background: var(--blue1);
+    color: var(--cream);
+    padding:3% 2%;
+    width:95%;
+    margin:auto;
+    margin-top:3%;
+    border-radius: 5px;
+  }
+  #careerBanner {
+      width: 100%;
+      background: #fff;
+      min-height: 100vh;
+      background-size: cover;
+  }
+  #careerBannertext {
+      color: var(--cream);
+      background: rgb(0, 0, 0, 0.4);
+      padding: 5%;
+  }
+  #careerHook {
+      position: relative;
+      top: 0%;
+  }
+  #contactHeader h1,
+  #registerHeader h1
+  {
+      font-size: 40px;
+  }
+  #contactHeader,
+  #registerHeader
+  {
+    padding-left:10%;
+  }
+  #contactBanner {
+      height: 110vh;
+  }
+  #registerBanner {
+      position: relative;
+      padding-top: 5%;
+      height: 105vh;
+      background-size: auto;
+  }
+  #registerForm
+  {
+    padding:5%;
+  }
+  #trioContactInfo p {
+      font-size: 20px;
+      text-align: center;
+  }
+  #trioContactInfo
+  {
+    padding-bottom: 5%;
+  }
+  #contactDescript h2
+  {
+    font-size: 20px;
+  }
+  .material-card.mc-active .img-container {
+    width: 20px;
+    height: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px){
+  .SplitGriddy{
+    position:relative;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    padding:5% 5%;
+  }
+}
+
+/*Nav*/
+.topnav {
+  background-color: var(--green1);
+  overflow: hidden;
+  width:100%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5% 5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: var(--cream);
+  color: black;
+}
+.topnav a.active {
+  background-color: var(--green1);
+  color: white;
+}
+.topnav .icon {
+  display: none;
+  width:15%;
+  margin:2%;
+}
+.topnav .icon:hover {
+  background-color: var(--cream);
+  color: black;
+  border-radius: 40px;
+}
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width:1000px){
+  #myTopnav{
+    display:none;
+  }
+}
+@media screen and (max-width:1000px){
+  #nav{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .wrapper > * {
+    padding: 2em;
+  }
+  .contact-info {
+    border-radius: 4px 0 0 4px;
+  }
+  .contact {
+    border-radius: 4px 4px 4px 4px;
+  }
+  .contact-info h3,
+  .contact-info ul,
+  {
+    text-align: left;
+  }
+}

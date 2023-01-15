@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration</title>
+  <link rel="icon" href="media/favicon.ico">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="css/nav.css"/>
+  <link rel="stylesheet" href="css/mediaquery.css"/>
+  <link rel="stylesheet" href="particles/particles.css"/>
+
+  <script src="scripts.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="nav">
+    <a href="index.html" class="logo"><img src="media/FYF.png" style="width:50px; height:50px;"></a>
+    <ul>
+      <li>
+        <div class="dropdown-menu">
+          <button class="menu-btn" onclick="redirectProgram()">Program <i class="fa fa-caret-down"></i></button>
+          <div class="menu-content">
+            <a class="links-hidden" href="program/schedule.html"> Schedule </a>
+            <a class="links-hidden" href="program/workshops.html"> Workshops </a>
+            <a class="links-hidden" href="program/speakers.html"> Speakers </a>
+            <a class="links-hidden" href="program/sponsors.html"> Sponsors </a>
+          </div>
+        </div>
+      </li>
+      <li><a href="watch/workshops.html">Watch</a></li>
+      <li><a href="careers/careers.html">Careers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <!--<li><a href="../login.html">Login</a></li>-->
+      <li>|</li>
+      <li><a href="index.html">Design Brief</a></li>
+      <li><a href="cte.html">CTE</a></li>
+      <li><a href="cvtsa.html">CV TSA</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="media/FYF.png" style="width:40px;"></a>
+    <a  href="program/schedule.html"> Schedule </a>
+    <a  href="program/workshops.html"> Workshops </a>
+    <a  href="program/speakers.html"> Speakers </a>
+    <a href="program/sponsors.html"> Sponsors </a>
+    <a href="watch/workshops.html"> Watch Workshops</a>
+    <a href="careers/careers.html">Careers</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Design Brief</a>
+    <a href="cte.html">CTE</a>
+    <a href="cvtsa.html">CV TSA</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="navs()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function navs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+  <section id="registerBanner">
+    <div id="registerHeader">
+      <h3>May 11th to May 13th</h3>
+      <h1>Register for Find Your Future Conference Now</h1>
+    </div>
+    <section id="registerForm">
+      <div class="formAutoHalfSplit">
+        <div><h4>First Name</h4><input type="text" class="form-control" id="inputFName" required></div>
+        <div><h4>Last Name</h4><input type="text" class="form-control" id="inputLName" required></div>
+        <div><h4>Email</h4><input type="text" class="form-control" id="inputEmail" required></div>
+        <div><h4>Address</h4><input type="text" class="form-control" id="inputAddress" required></div>
+      </div>
+      <div class="formAutoHalfSplit">
+        <div><h4>City</h4><input type="text" class="form-control" id="inputCity" required></div>
+        <div><h4>State</h4>
+          <select id="inputState" class="form-select" required>
+            <option selected></option>
+            <option value="AL">Alabama (AL)</option>
+            <option value="AK">Alaska (AK)</option>
+            <option value="AZ">Arizona (AZ)</option>
+            <option value="AR">Arkansas (AR)</option>
+            <option value="CA">California (CA)</option>
+            <option value="CO">Colorado (CO)</option>
+            <option value="CT">Connecticut (CT)</option>
+            <option value="DE">Delaware (DE)</option>
+            <option value="DC">District Of Columbia (DC)</option>
+            <option value="FL">Florida (FL)</option>
+            <option value="GA">Georgia (GA)</option>
+            <option value="HI">Hawaii (HI)</option>
+            <option value="ID">Idaho (ID)</option>
+            <option value="IL">Illinois (IL)</option>
+            <option value="IN">Indiana (IN)</option>
+            <option value="IA">Iowa (IA)</option>
+            <option value="KS">Kansas (KS)</option>
+            <option value="KY">Kentucky (KY)</option>
+            <option value="LA">Louisiana (LA)</option>
+            <option value="ME">Maine (ME)</option>
+            <option value="MD">Maryland (MD)</option>
+            <option value="MA">Massachusetts (MA)</option>
+            <option value="MI">Michigan (MI)</option>
+            <option value="MN">Minnesota (MN)</option>
+            <option value="MS">Mississippi (MS)</option>
+            <option value="MO">Missouri (MO)</option>
+            <option value="MT">Montana (MT)</option>
+            <option value="NE">Nebraska (NE)</option>
+            <option value="NV">Nevada (NV)</option>
+            <option value="NH">New Hampshire (NH)</option>
+            <option value="NJ">New Jersey (NJ)</option>
+            <option value="NM">New Mexico (NM)</option>
+            <option value="NY">New York (NY)</option>
+            <option value="NC">North Carolina (NC)</option>
+            <option value="ND">North Dakota (ND)</option>
+            <option value="OH">Ohio (OH)</option>
+            <option value="OK">Oklahoma (OK)</option>
+            <option value="OR">Oregon (OR)</option>
+            <option value="PA">Pennsylvania (PA)</option>
+            <option value="RI">Rhode Island (RI)</option>
+            <option value="SC">South Carolina (SC)</option>
+            <option value="SD">South Dakota (SD)</option>
+            <option value="TN">Tennessee (TN)</option>
+            <option value="TX">Texas (TX)</option>
+            <option value="UT">Utah (UT)</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+            <option value="AS">American Samoa (AS)</option>
+            <option value="GU">Guam (GU)</option>
+            <option value="MP">Northern Mariana Islands (MP)</option>
+            <option value="PR">Puerto Rico (PR)</option>
+            <option value="UM">United States Minor Outlying Islands (UM)</option>
+            <option value="VI">Virgin Islands (VI)</option>
+          </select>
+        </div>
+      <div><h4>Zip</h4><input type="text" class="form-control" id="inputZip" required></div>
+      <div><h4>Password</h4><input type="password" class="form-control" id="password" required></div>
+      <div><button class="abutton">Register</button></div>
+      </div>
+    </section>
+  </section>
+
+  <section id="contactDescript">
+    <div>
+      <h2>We would love to have you at the first Find Your Future Conference! The week will consist of several workshops, keynote speakers, collaborative interactions and more.</h2>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div id="responsiveFooter">
+      <button class="accordionFt">About</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="index.html" target="_blank">About FYF</a></li>
+                  <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Conference</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="registration.html" target="_blank">Registration</a></li>
+                <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="careers/careers.html" target="_blank">Personality Quiz</a></li>
+                <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Speakers</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="program/speakers.html" target="_blank">Speakers</a></li>
+                <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Clusters</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="careers/careers.html" target="_blank">Careers</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </section>
+</body>
+
+<footer>
+    <div class="fourSplitGrid">
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="index.html" target="_blank">About FYF</a></li>
+          <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Conference</h2>
+        <ul>
+          <li><a href="registration.html" target="_blank">Registration</a></li>
+          <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="careers/careers.html" target="_blank">Personality Quiz</a></li>
+          <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Speakers</h2>
+        <ul>
+          <li><a href="program/speakers.html" target="_blank">Speakers</a></li>
+          <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Clusters</h2>
+        <ul>
+          <li><a href="careers/careers.html" target="_blank">careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <p> FYF. All Rights Reserved</p>
+  </footer>
+  <script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+</script>
+</html>

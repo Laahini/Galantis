@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watch Workshops</title>
+  <link rel="icon" href="../media/favicon.ico">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../css/nav.css"/>
+  <link rel="stylesheet" href="watch.css"/>
+  <link rel="stylesheet" href="../css/mediaquery.css"/>
+
+  <script src="../scripts.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="nav">
+    <a href="../index.html" class="logo"><img src="../media/FYF.png" style="width:50px; height:50px;"></a>
+    <ul>
+      <li>
+        <div class="dropdown-menu">
+          <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+          <div class="menu-content">
+            <a class="links-hidden" href="../program/schedule.html"> Schedule </a>
+            <a class="links-hidden" href="../program/workshops.html"> Workshops </a>
+            <a class="links-hidden" href="../program/speakers.html"> Speakers </a>
+            <a class="links-hidden" href="../program/sponsors.html"> Sponsors </a>
+          </div>
+        </div>
+      </li>
+      <li><a href="workshops.html">Watch</a></li>
+      <li><a href="../careers/careers.html">Careers</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <!--<li><a href="../login.html">Login</a></li>-->
+      <li>|</li>
+      <li><a href="../index.html">Design Brief</a></li>
+      <li><a href="../cte.html">CTE</a></li>
+      <li><a href="../cvtsa.html">CV TSA</a></li>
+      <li><a href="../about.html">About</a></li>
+    </ul>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html" class="active"><img src="../media/FYF.png" style="width:40px;"></a>
+    <a  href="../program/schedule.html"> Schedule </a>
+    <a  href="../program/workshops.html"> Workshops </a>
+    <a  href="../program/speakers.html"> Speakers </a>
+    <a href="../program/sponsors.html"> Sponsors </a>
+    <a href="workshops.html"> Watch Workshops</a>
+    <a href="../careers/careers.html">Careers</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../index.html">Design Brief</a>
+    <a href="../cte.html">CTE</a>
+    <a href="../cvtsa.html">CV TSA</a>
+    <a href="../about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="navs()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function navs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+  <section id="workshopWatchBanner">
+    <div id="workshopWatchBannerHook" class="halfSplitGrid">
+      <div>
+        <img src="../media/wkshp.jpg" class="placeholder">
+      </div>
+      <div>
+        <h3>Missed a Workshop?</h3>
+        <h1>We Got You Covered</h1>
+        <p>Our conference is jampacked with several different workshops and activites.
+          However, we understand that attending all of them is difficult.
+          Henceforth, we are proud to reveal our new live stream replays where you
+          can rewatch old workshops at your convenience.
+          Here, we have compiled a multitude of our personal development and career exploration
+          workshops from the conference. Please utilize these wonderful resources and feel
+          free to make comments.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="watchCareerQuiz">
+
+    <div class="threeFourthGrid">
+      <div id="watchCareerQuizDescript">
+        <h4>On-Demand Workshop</h4>
+        <h1>Exploring Personality Types Future Career Choices</h1>
+        <p>Asha Sahu, a biology professor at HACC, shares her ideology on deciding future career choices
+          for high school and college students. With the guidance of Find Your Future's personality quiz,
+          explore potential jobs and fields. After taking the personality quiz, feel free to attend our
+          cluster sessions and career resources.</p>
+          <p>Watch the workshop now and take the personality quiz to find out which careers best suit you!</p>
+
+      </div>
+      <div><img class="placeholderbckg" src="../media/notes.jpg"></div>
+    </div>
+  </section>
+
+  <section id="videoLibrary">
+    <div id="videoSelect">
+      <div class="videoScrollGrid">
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop1')"><h4>Exploring Personality Types</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop2')"><h4>How to Express Yourself: Self-Expression and Authenticity</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop3')"><h4>Exercise for the Mind and Body</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop4')"><h4>Entrepreneurship 101</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop5')"><h4>Learning How to Learn</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop6')"><h4>Personal Financial Management</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop7')"><h4>Making and Meeting Goals</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop8')"><h4>Oprah's Path to Success</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop9')"><h4>Think like a Philospher</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop10')"><h4>Picking a major</h4></button>
+      </div>
+    </div>
+    <div id="videoPlayer">
+      <div class="glassmorphism">
+        <div id="tempVidPlayer"><img src="../media/watchnow.png" class="placeholder"></div>
+        <div id="workshop1" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop2"class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop3" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop4" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop5" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop6" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop7" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop8" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop9" class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+        <div id="workshop10"class="videocontent2"><iframe width="1200" height="600" src="../media/workshops.mp4"></iframe></div>
+      </div>
+    </div>
+    <script>
+      function openVideo2(evt, videoName) {
+        var i, videocontent, videolinks;
+        var temp = document.getElementById("tempVidPlayer");
+        temp.style.display="none";
+        videocontent = document.getElementsByClassName("videocontent2");
+        for (i = 0; i < videocontent.length; i++) {
+          videocontent[i].style.display = "none";
+        }
+        videolinks = document.getElementsByClassName("videolinks2");
+        for (i = 0; i < videolinks.length; i++) {
+          videolinks[i].className = videolinks[i].className.replace(" active", "");
+        }
+        document.getElementById(videoName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("defaultOpen2").click();
+    </script>
+  </section>
+
+  <section id="commentChat">
+    <div id="commentHeader">
+      <h1>Comment Section</h1>
+      <h3>Feel Free to Leave a Comment Below</h3>
+    </div>
+    <div id="comments">
+      <ul id="myUL">
+        <li >I love The Rock's video on perseverance!</li>
+        <li >How can I contact a speaker?</li>
+        <li >Why is self-improvement crucial to reaching your goals?</li>
+      </ul>
+    </div>
+    <div id="addComment">
+      <input type="text" id="myInput" placeholder="add comment.....">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <script>
+      var list = document.querySelector('ul');
+      list.addEventListener('click', function(ev) {
+        if (ev.target.tagName === 'LI') {
+          ev.target.classList.toggle('checked');
+        }
+      }, false);
+
+      function newElement() {
+        var li = document.createElement("li");
+        var inputValue = document.getElementById("myInput").value;
+        var t = document.createTextNode(inputValue);
+        li.appendChild(t);
+        if (inputValue === '') {
+          alert("You must write something!");
+        } else {
+          document.getElementById("myUL").appendChild(li);
+        }
+        document.getElementById("myInput").value = "";
+      }
+    </script>
+  </section>
+
+  <section id="footer">
+    <div id="responsiveFooter">
+      <button class="accordionFt">About</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="../index.html" target="_blank">About FYF</a></li>
+                  <li><a href="../program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="../program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="../contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Conference</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="../registration.html" target="_blank">Registration</a></li>
+                <li><a href="../program/schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="../careers/careers.html" target="_blank">Personality Quiz</a></li>
+                <li><a href="workshops.html" target="_blank">Watch Workshops</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Speakers</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="../program/speakers.html" target="_blank">Speakers</a></li>
+                <li><a href="workshops.html" target="_blank">Watch Workshops</a></li>
+                <li><a href="../contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Clusters</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="../careers/careers.html" target="_blank">Careers</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </section>
+
+</body>
+
+<footer>
+    <div class="fourSplitGrid">
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="../index.html" target="_blank">About FYF</a></li>
+          <li><a href="../program/schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="../program/sponsors.html" target="_blank">Sponsors</a></li>
+          <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Conference</h2>
+        <ul>
+          <li><a href="../registration.html" target="_blank">Registration</a></li>
+          <li><a href="../program/schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="../careers/careers.html" target="_blank">Personality Quiz</a></li>
+          <li><a href="workshops.html" target="_blank">Watch Workshops</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Speakers</h2>
+        <ul>
+          <li><a href="../program/speakers.html" target="_blank">Speakers</a></li>
+          <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+          <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Clusters</h2>
+        <ul>
+          <li><a href="../careers/careers.html" target="_blank">careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </footer>
+  <script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+</script>
+</html>

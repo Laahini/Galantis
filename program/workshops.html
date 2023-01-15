@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workshops</title>
+  <link rel="icon" href="../media/favicon.ico">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../css/nav.css"/>
+  <link rel="stylesheet" href="program.css"/>
+  <link rel="stylesheet" href="../css/mediaquery.css"/>
+
+  <script src="../scripts.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="nav">
+    <a href="../index.html" class="logo"><img src="../media/FYF.png" style="width:50px; height:50px;"></a>
+    <ul>
+      <li>
+        <div class="dropdown-menu">
+          <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+          <div class="menu-content">
+            <a class="links-hidden" href="schedule.html"> Schedule </a>
+            <a class="links-hidden" href="workshops.html"> Workshops </a>
+            <a class="links-hidden" href="speakers.html"> Speakers </a>
+            <a class="links-hidden" href="sponsors.html"> Sponsors </a>
+          </div>
+        </div>
+      </li>
+      <li><a href="../watch/workshops.html">Watch</a></li>
+      <li><a href="../careers/careers.html">Careers</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <!--<li><a href="../login.html">Login</a></li>-->
+      <li>|</li>
+      <li><a href="../index.html">Design Brief</a></li>
+      <li><a href="../cte.html">CTE</a></li>
+      <li><a href="../cvtsa.html">CV TSA</a></li>
+      <li><a href="../about.html">About</a></li>
+    </ul>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html" class="active"><img src="../media/FYF.png" style="width:40px;"></a>
+    <a  href="schedule.html"> Schedule </a>
+    <a  href="workshops.html"> Workshops </a>
+    <a  href="speakers.html"> Speakers </a>
+    <a href="sponsors.html"> Sponsors </a>
+    <a href="../watch/workshops.html"> Watch Workshops</a>
+    <a href="../careers/careers.html">Careers</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../index.html">Design Brief</a>
+    <a href="../cte.html">CTE</a>
+    <a href="../cvtsa.html">CV TSA</a>
+    <a href="../about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="navs()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function navs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+  <section id="programBanner">
+    <div id="programBannerHook">
+      <h1>2022 Workshops</h1>
+    </div>
+  </section>
+  <section id="workshopIntro">
+    <div class="halfSplitGrid">
+      <div>
+        <p>During the Find Your Future Conference, we will be offering several different opportunities for you to develop your
+        personal skills and learn about a variety of topics regarding leadership and self-improvement from professionals in
+        varying fields. You will also get a perspective on different careers, even having the opportunity to perform some of
+        their daily tasks as a challenge. We want you to enjoy learning, improve yourself and start making an impact today.</p>
+      </div>
+      <div>
+        <img src="../media/wkshp2.jpg" class="placeholder">
+      </div>
+    </div>
+  </section>
+  <!--FOR EACH WORKSHOP, INCLUDE FULL NAME of WORKSHOP, SPEAKER, CONTACT
+  INFO FOR SPEAKER, DESCRIPTION OF SPEAKER, WHAT WILL BE DONE IN WORKSHOP WITH BULLET
+  POINTS OKAY-->
+  <!--
+  SLEEP BETTER: Matthew Walker Teaches The Science Of Better Sleep
+  SET GOALS
+  HOW TO EXPRESS YOURSELF : RuPaul Teaches Self-Expression and Authenticity
+  EXERCISE FOR THE MIND AND BODY
+  BIOHACKING
+  HOW TO UP YOUR CONFIDENCE AND BLOCK NEGATIVITY
+  LEARNING HOW TO LEARN
+  -->
+
+  <section id="clustersInfo">
+    <div class="halfSplitGrid">
+      <div><img src="../media/cluster.jpg" class="placeholder"></div>
+      <div>
+        <h1>What is a Cluster?</h1><br>
+        <p>A cluster is a special group collaboration session that Find Your Future has created to help
+          rising high schoolers and college students discover their interests. In this meeting, people
+          will get to meet people of all different fields that match  their personality and career interests.
+          Find Your Future hopes that this unique program will help several discover and learn more about new interests and passion. </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="clusterCards" class=" glassmorphism">
+    <div class="splitGrid2by2">
+      <div class=" leadCCard clusterCardGrid">
+        <div><img src="../media/avanti.jpg" class="smallWorkshopImg"></div>
+        <div>
+          <h2>Avanti Athavale</h2>
+          <h3>CLUSTER LEAD</h3><br>
+          <div class="socialMediaBar">
+
+              <div class='socialButton facebook'>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </div>
+              <div class='socialButton twitter'>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <div class='socialButton github'>
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class='socialButton instagram'>
+                <i class="fab fa-instagram fa-2x"></i>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class=" leadCCard clusterCardGrid">
+        <div><img src="../media/krish.jpeg" class="smallWorkshopImg"></div>
+        <div>
+          <h2>Krish Mittal</h2>
+          <h3>CLUSTER LEAD</h3><br>
+          <div class="socialMediaBar">
+
+              <div class='socialButton facebook'>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </div>
+              <div class='socialButton twitter'>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <div class='socialButton github'>
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class='socialButton instagram'>
+                <i class="fab fa-instagram fa-2x"></i>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class=" leadCCard clusterCardGrid">
+        <div><img src="../media/poorvi.jpg" class="smallWorkshopImg"></div>
+        <div>
+          <h2>Poorvi Parikh</h2>
+          <h3>CLUSTER LEAD</h3><br>
+          <div class="socialMediaBar">
+
+              <div class='socialButton facebook'>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </div>
+              <div class='socialButton twitter'>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <div class='socialButton github'>
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class='socialButton instagram'>
+                <i class="fab fa-instagram fa-2x"></i>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class=" leadCCard clusterCardGrid">
+        <div><img src="../media/officers/shubham.png" class="smallWorkshopImg"></div>
+        <div>
+          <h2>Shubham Gupta</h2>
+          <h3>CLUSTER LEAD</h3><br>
+          <div class="socialMediaBar">
+
+              <div class='socialButton facebook'>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </div>
+              <div class='socialButton twitter'>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <div class='socialButton github'>
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class='socialButton instagram'>
+                <i class="fab fa-instagram fa-2x"></i>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class=" leadCCard clusterCardGrid">
+        <div><img src="../media/laahini1.JPG" class="smallWorkshopImg"></div>
+        <div>
+          <h2>Laahini Addagatla</h2>
+          <h3>CLUSTER LEAD</h3><br>
+          <div class="socialMediaBar">
+
+              <div class='socialButton facebook'>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </div>
+              <div class='socialButton twitter'>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <div class='socialButton github'>
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class='socialButton instagram'>
+                <i class="fab fa-instagram fa-2x"></i>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class=" leadCCard clusterCardGrid">
+        <div><img src="../media/varnika.jpeg" class="smallWorkshopImg"></div>
+        <div>
+          <h2>Varnika Udhayakumar</h2>
+          <h3>CLUSTER LEAD</h3><br>
+          <div class="socialMediaBar">
+
+              <div class='socialButton facebook'>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </div>
+              <div class='socialButton twitter'>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <div class='socialButton github'>
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class='socialButton instagram'>
+                <i class="fab fa-instagram fa-2x"></i>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><br>
+
+  <section id="requestWorkshop">
+    <h1>Request a Workshop</h1><br>
+    <p>Are you interested in a particular topic or want to hear from a certain speaker?
+      Find Your Future would love to hear your recommendations. Our list of workshops
+      and sessions are never-ending and led by reknown speakers with first-hand experience. Contact us now for a chance at hearing from your favorite speaker or your favorite topic.</p><br>
+    <a href="../contact.html">Request Now</a>
+  </section>
+  <section id="footer">
+    <div id="responsiveFooter">
+      <button class="accordionFt">About</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="../index.html" target="_blank">About FYF</a></li>
+                  <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="../contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Conference</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="../careers/careers.html" target="_blank">Personality Quiz</a></li>
+                <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Speakers</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="speakers.html" target="_blank">Speakers</a></li>
+                <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+                <li><a href="../contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Clusters</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="../careers/careers.html" target="_blank">Careers</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </section>
+</body>
+
+<footer>
+    <div class="fourSplitGrid">
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="../index.html" target="_blank">About FYF</a></li>
+          <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="sponsors.html" target="_blank">Sponsors</a></li>
+          <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Conference</h2>
+        <ul>
+          <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="../careers/careers.html" target="_blank">Personality Quiz</a></li>
+          <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Speakers</h2>
+        <ul>
+          <li><a href="speakers.html" target="_blank">Speakers</a></li>
+          <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+          <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Clusters</h2>
+        <ul>
+          <li><a href="../careers/careers.html" target="_blank">careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <p> FYF. All Rights Reserved</p>
+  </footer>
+  <script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+</script>
+</html>

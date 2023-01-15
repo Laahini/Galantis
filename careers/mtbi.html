@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html LANG="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="careers.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/mediaquery.css" />
+
+    <title>Quiz</title>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <section id="test">
+        <div class="question">
+            <h3>Would you prefer to read </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio"  name="Read" value="CSS">
+                    <label for="css">A fictional story or poem</label><br>
+                   </button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="Read" value="CSS">
+                    <label for="css">A news story</label><br>
+                   </button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you find it more natural to remember </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="remember" value="CSS">
+                    <label for="css">Numbers and Figures</label><br>
+                   </button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="remember" value="CSS">
+                    <label for="css">Faces and Names</label><br>
+                   </button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you more often tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="tend" value="CSS">
+                    <label for="css">think through what you will say before speaking </label><br></button>
+
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="tend" value="CSS">
+                    <label for="css">talk off the top of your head</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you think that you tend to take things personally? </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,1,-1);"><input type="radio" id="css" name="personally" value="CSS">
+                    <label for="css">yes</label><br></button>
+                <button onClick="addPoints(1,1,-1,1);"><input type="radio" id="css" name="personally" value="CSS">
+                    <label for="css">no</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>If you're feeling stressed out, do you prefer to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="stressed" value="CSS">
+                    <label for="css">spend time alone</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="stressed" value="CSS">
+                    <label for="css">blow off steam with friends</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When deciding whether or not to purchase something, is the determining factor more often </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="purchase" value="CSS">
+                    <label for="css">how much you really need it</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="purchase" value="CSS">
+                    <label for="css">how much you really like it</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>In terms of promptness, are you usually </h3><br>
+            <div class="options">
+                <button onClick="addPoints(0,0,0,0);"><input type="radio" id="css" name="promptness" value="CSS">
+                    <label for="css">early</label><br></button>
+                <button onClick="addPoints(0,0,0,1);"><input type="radio" id="css" name="promptness" value="CSS">
+                    <label for="css">on time</label><br></button>
+                <button onClick="addPoints(1,0,1,1);"><input type="radio" id="css" name="promptness" value="CSS">
+                    <label for="css">late</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="promptness" value="CSS">
+                    <label for="css">it depends</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you more prone to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="prone" value="CSS">
+                    <label for="css">speak without thinking and put 'your foot in your mouth'</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="prone" value="CSS">
+                    <label for="css">miss an opportunity and later think 'I should've said'</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Which term is more appealing to you? </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="appeal" value="CSS">
+                    <label for="css">clarity</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="appeal" value="CSS">
+                    <label for="css">harmony</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you more frequently </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="frequently" value="CSS">
+                    <label for="css">act spontaneously, to go with the flow</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="frequently" value="CSS">
+                    <label for="css">act deliberately, with a goal or plan in mind</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>If a decision is made which affects you, such as being made redundant, is it more important to you to know that </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="redundant" value="CSS">
+                    <label for="css">you are appreciated</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="redundant" value="CSS">
+                    <label for="css">you have been treated fairly</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do areas where you work tend to appear </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="appear" value="CSS">
+                    <label for="css">organized</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="appear" value="CSS">
+                    <label for="css">disorganized</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Would you typically </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="typical" value="CSS">
+                    <label for="css">rather do something than think about doing it</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="typical" value="CSS">
+                    <label for="css">enjoy thinking about something more than doing it</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When communicating with others, are you more often </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="communication" value="CSS">
+                    <label for="css">frank and direct with little or no prompting</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="communication" value="CSS">
+                    <label for="css">frank and direct when prompted, or when neccessary</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Does it describe you better to say that you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="better" value="CSS">
+                    <label for="css">do not enjoy suprises</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="better" value="CSS">
+                    <label for="css">enjoy the excitement and spontaneity of surprises</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you value more highly </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="high" value="CSS">
+                    <label for="css">logic and reason</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="high" value="CSS">
+                    <label for="css">compassion</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you get more satisfaction from thinking about </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="satisfaction" value="CSS">
+                    <label for="css">your plans</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="satisfaction" value="CSS">
+                    <label for="css">your achievements</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you</h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="you" value="CSS">
+                    <label for="css">enjoy watching the news or reading the paper most days</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="you" value="CSS">
+                    <label for="css">have little interest with the current news</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When it comes to doing detailed, routine tasks, does it describe you better to say that you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,1,1);"><input type="radio" id="css" name="routine" value="CSS">
+                    <label for="css">avoid doing them</label><br></button>
+                <button onClick="addPoints(1,-1,1,1);"><input type="radio" id="css" name="routine" value="CSS">
+                    <label for="css">dislike doing them</label><br></button>
+                <button onClick="addPoints(-1,1,-1,1);"><input type="radio" id="css" name="routine" value="CSS">
+                    <label for="css">don't mind doing them</label><br></button>
+                <button onClick="addPoints(-1,1,-1,-1);"><input type="radio" id="css" name="routine" value="CSS">
+                    <label for="css">enjoy doing them</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>In thinking about money, when it comes right down to it, do you believe that </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="believe" value="CSS">
+                    <label for="css">money provides security</label><br></button>
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="believe" value="CSS">
+                    <label for="css">money can buy happiness</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you find it more stimulating to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,1,1);"><input type="radio" id="css" name="stimulating" value="CSS">
+                    <label for="css">spend time in one-on-one interactions</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="stimulating" value="CSS">
+                    <label for="css">interact with many at a large party</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you better at </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="are" value="CSS">
+                    <label for="css">initiating and planning a project</label><br></button>
+                <button onClick="addPoints(-1,1,-1,-1);"><input type="radio" id="css" name="are" value="CSS">
+                    <label for="css">followng a project through completion</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When attending a party, do you usually </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="party" value="CSS">
+                    <label for="css">get tired and are first ones to leave</label><br></button>
+                <button onClick="addPoints(1,-1,1,1);"><input type="radio" id="css" name="party" value="CSS">
+                    <label for="css">stay energetic and are last one to leave</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Would people be more likely to describe you as </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,1,1);"><input type="radio" id="css" name="describe" value="CSS">
+                    <label for="css">not fussy enough</label><br></button>
+                <button onClick="addPoints(1,1,-1,-1);"><input type="radio" id="css" name="describe" value="CSS">
+                    <label for="css">fussy enough</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you more attracted to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="attract" value="CSS">
+                  <label for="css">science</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="attract" value="CSS">
+                  <label for="css">humanities</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When meeting someone new, do you tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="meeting" value="CSS">
+                    <label for="css">intitate the converseation with the person</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="meeting" value="CSS">
+                    <label for="css">wait for the other person to start the converseation</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you more naturally </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,1);"><input type="radio" id="css" name="natural" value="CSS">
+                    <label for="css">turned into the details of your enviornment</label><br></button>
+                <button onClick="addPoints(1,1,1,-1);"><input type="radio" id="css" name="natural" value="CSS">
+                    <label for="css">unware of the details of your enviornment</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>At work or when studying, do you feel that you are more effective and productive </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="study" value="CSS">
+                    <label for="css">working alone</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="study" value="CSS">
+                    <label for="css">working with others</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When working on tasks, is it more important to you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="task" value="CSS">
+                    <label for="css">to see immediate results for your efforts</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="task" value="CSS">
+                    <label for="css">to see future possibilities your effort</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Is it more terrible to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="terrible" value="CSS">
+                    <label for="css">wear your emotions on your sleeve</label><br></button>
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="terrible" value="CSS">
+                    <label for="css">never ever cry in front of people</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>At meetings, or in other discussion groups, do you tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="discussion" value="CSS">
+                    <label for="css">speak up often</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="discussion" value="CSS">
+                    <label for="css">hold back</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When solving a problem, are you more likely to act according to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="accrod" value="CSS">
+                    <label for="css">what your instincts dictate for situation</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="accrod" value="CSS">
+                    <label for="css">what the known facts of the situation of the situation dictate</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you more often </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="often" value="CSS">
+                    <label for="css">freely express your opinions to everyone</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,1);"><input type="radio" id="css" name="often" value="CSS">
+                    <label for="css">keep your opinions to yourself</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="areyou" value="CSS">
+                    <label for="css">good at finding solutions to practical problems</label><br></button>
+                <button onClick="addPoints(1,1,-1,-1);"><input type="radio" id="css" name="areyou" value="CSS">
+                    <label for="css">impatient with practical concerns, which are ignored</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>In general, do you believe that </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,-1,-1);"><input type="radio" id="css" name="gen" value="CSS">
+                    <label for="css">everything should be kept in its assigned place</label><br></button>
+                <button onClick="addPoints(1,-1,1,1);"><input type="radio" id="css" name="gen" value="CSS">
+                    <label for="css">it's unnecessary to keep everything in its assigned place</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you more often tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,-1);"><input type="radio" id="css" name="moreoften" value="CSS">
+                    <label for="css">put the needs of others before you own</label><br></button>
+                <button onClick="addPoints(1,-1,-1,1);"><input type="radio" id="css" name="moreoften" value="CSS">
+                    <label for="css">look after your own needs first</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>If you forgot to wear your watch one day, would you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,-1,-1);"><input type="radio" id="css" name="wear" value="CSS">
+                    <label for="css">feel rather displaced and lost</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="wear" value="CSS">
+                    <label for="css">not notice often that it's missing</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="wear" value="CSS">
+                    <label for="css">you don't wear a watch in general</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you valued more for your </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="valje" value="CSS">
+                    <label for="css">practical outlook</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="valje" value="CSS">
+                    <label for="css">new way of looking at things</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you think of yourself as </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,1,-1);"><input type="radio" id="css" name="thinks" value="CSS">
+                    <label for="css">easily approachacble</label><br></button>
+                <button onClick="addPoints(-1,1,-1,1);"><input type="radio" id="css" name="thinks" value="CSS">
+                    <label for="css">more reserved than people</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When judging a person or situation, do you feel that it's better to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="sit" value="CSS">
+                    <label for="css">be impartial, fair and objective in all cases and circumstances.</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="sit" value="CSS">
+                    <label for="css">consider and extenuating circumstances and base your judgement on the indvidual case</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you think it's a worse fault to be </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="worse" value="CSS">
+                    <label for="css">unable to deal with an issue and move on</label><br></button>
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="worse" value="CSS">
+                    <label for="css">unable to seee all sides of an issue</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you typically </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="type" value="CSS">
+                    <label for="css">know everything that's going on in your friends and family's lives</label><br></button>
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="type" value="CSS">
+                    <label for="css">get behind what's going on in their lives</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When discussing an issue with a friend, is it more important to you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,1,1);"><input type="radio" id="css" name="iss" value="CSS">
+                    <label for="css"></label>to reach an agreement on the issue</label><br></button>
+                <button onClick="addPoints(1,1,-1,-1);"><input type="radio" id="css" name="iss" value="CSS">
+                    <label for="css">to have a thorough, logical discussion of the issue</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When performing an important task, do you tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,-1,-1);"><input type="radio" id="css" name="imp" value="CSS">
+                    <label for="css">start early and finish with time to spare</label><br></button>
+                <button onClick="addPoints(1,-1,1,1);"><input type="radio" id="css" name="imp" value="CSS">
+                    <label for="css">procrastinate and finish just in time</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="doyou" value="CSS">
+                    <label for="css">have an excellent memory for details</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="doyou" value="CSS">
+                    <label for="css">remember general conepts, without retaining specific details</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you more interested in </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="areyous" value="CSS">
+                    <label for="css">what is real</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="areyous" value="CSS">
+                    <label for="css">what is possible</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When you've said something that hurt someone's feelings, are you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="feelin" value="CSS">
+                    <label for="css">usually immediately aware of it</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="feelin" value="CSS">
+                    <label for="css">often unaware that there is a problem until later</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>At parties, do you tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="pty" value="CSS">
+                    <label for="css">spend time with people you know</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="pty" value="CSS">
+                    <label for="css">meet and converse with many new people</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Are you more often prone to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="pro" value="CSS">
+                    <label for="css">make decisions too quickly</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="pro" value="CSS">
+                    <label for="css">be indecisive</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When making plans, do you prefer to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,-1,-1);"><input type="radio" id="css" name="preferto" value="CSS">
+                    <label for="css">schedule things in advance and plan ahead</label><br></button>
+                <button onClick="addPoints(-1,-1,1,1);"><input type="radio" id="css" name="preferto" value="CSS">
+                    <label for="css">leave thngs unscheduled and make plans last minute</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Is it a worse fault to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,1);"><input type="radio" id="css" name="fal" value="CSS">
+                    <label for="css">show too much warmth</label><br></button>
+                <button onClick="addPoints(1,1,1,-1);"><input type="radio" id="css" name="fal" value="CSS">
+                    <label for="css">not show enough warmth</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Which of these two sayings do you find more interesting? </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="twoint" value="CSS">
+                    <label for="css">Seeing is believing</label><br></button>
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="twoint" value="CSS">
+                    <label for="css">I think, therefore I am</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you prefer to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="preferto" value="CSS">
+                    <label for="css">concentrate on current task</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="preferto" value="CSS">
+                    <label for="css">fantasize about the future</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>When it comes to daily tasks, do you tend to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,1,-1);"><input type="radio" id="css" name="imptoyou" value="CSS">
+                  <label for="css">have a system for getting things done which you follow</label><br></button>
+                <button onClick="addPoints(-1,1,-1,1);"><input type="radio" id="css" name="imptoyou" value="CSS">
+                  <label for="css">take things as they come, no planing behind it</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Is it more important to you </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,1,-1);"><input type="radio" id="css" name="imptoyou" value="CSS">
+                    <label for="css">get thing done and move on</label><br></button>
+                <button onClick="addPoints(-1,1,-1,1);"><input type="radio" id="css" name="imptoyou" value="CSS">
+                    <label for="css">to leave your options open</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>If someone does something that bothers you, are you more likely to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,1);"><input type="radio" id="css" name="brom" value="CSS">
+                    <label for="css">tell them that it bothers you</label><br></button>
+                <button onClick="addPoints(1,1,1,-1);"><input type="radio" id="css" name="brom" value="CSS">
+                    <label for="css">not say anything</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>After making an important decision, are you more likely to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="impdec" value="CSS">
+                    <label for="css">consider the case closed</label><br></button>
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="impdec" value="CSS">
+                    <label for="css">revisit the decision again </label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>If you receive criticism about something, are you more likely to </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,1,1);"><input type="radio" id="css" name="crit" value="CSS">
+                    <label for="css">become upset and react emotionally</label><br></button>
+                <button onClick="addPoints(-1,1,-1,-1);"><input type="radio" id="css" name="crit" value="CSS">
+                    <label for="css">take the criticism pretty well and not emotionally</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you generally </h3><br>
+            <div class="options">
+                <button onClick="addPoints(1,-1,-1,-1);"><input type="radio" id="css" name="genral" value="CSS">
+                    <label for="css">take things at face value</label><br></button>
+                <button onClick="addPoints(-1,1,1,1);"><input type="radio" id="css" name="genral" value="CSS">
+                    <label for="css">look for underlying meaning</label><br></button>
+            </div>
+        </div>
+        <div class="question">
+            <h3>Do you think it's more important to understand </h3><br>
+            <div class="options">
+                <button onClick="addPoints(-1,-1,-1,-1);"><input type="radio" id="css" name="under" value="CSS">
+                    <label for="css">the theory behind the solution to a problem</label><br></button>
+                <button onClick="addPoints(1,1,1,1);"><input type="radio" id="css" name="under" value="CSS">
+                    <label for="css">the application of the steps which solve the problem</label><br></button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <h1 style="text-align: center;">MTBI Result</h1>
+
+    <FORM style="text-align: center;" NAME="WordForm">
+        <INPUT TYPE=TEXT NAME="WordBox" id="wordbox">
+        <BR>
+        <INPUT style="background-color: #33658a; width: 10em; height: 4em; color: #fff;" TYPE=BUTTON VALUE="Submit" onClick="PickRandomWord(document.WordForm);">
+
+
+    </FORM>
+
+</body>

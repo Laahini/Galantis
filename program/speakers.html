@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html LANG="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Speakers</title>
+    <link rel="icon" href="../media/favicon.ico">
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="program.css" />
+    <link rel="stylesheet" href="../css/mediaquery.css"/>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../scripts.js"></script>
+    <script src="../scripts/speakerCards.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/172752eb95.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="nav">
+        <a href="../index.html" class="logo"><img src="../media/FYF.png" style="width:50px; height:50px;"></a>
+        <ul>
+            <li>
+                <div class="dropdown-menu">
+                    <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+                    <div class="menu-content">
+                        <a class="links-hidden" href="schedule.html"> Schedule </a>
+                        <a class="links-hidden" href="workshops.html"> Workshops </a>
+                        <a class="links-hidden" href="speakers.html"> Speakers </a>
+                        <a class="links-hidden" href="sponsors.html"> Sponsors </a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="../watch/workshops.html">Watch</a></li>
+            <li><a href="../careers/careers.html">Careers</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <!--<li><a href="../login.html">Login</a></li>-->
+            <li>|</li>
+            <li><a href="../index.html">Design Brief</a></li>
+            <li><a href="../cte.html">CTE</a></li>
+            <li><a href="../cvtsa.html">CV TSA</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active"><img src="../media/FYF.png" style="width:40px;"></a>
+      <a  href="schedule.html"> Schedule </a>
+      <a  href="workshops.html"> Workshops </a>
+      <a  href="speakers.html"> Speakers </a>
+      <a href="sponsors.html"> Sponsors </a>
+      <a href="../watch/workshops.html"> Watch Workshops</a>
+      <a href="../careers/careers.html">Careers</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../index.html">Design Brief</a>
+      <a href="../cte.html">CTE</a>
+      <a href="../cvtsa.html">CV TSA</a>
+      <a href="../about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="navs()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+    function navs() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    <section id="workshopsHook">
+    <section id="programBanner">
+        <div id="programBannerHook">
+            <h5>May 11-13, 2022 | ONLINE</h5>
+            <h1>2022 Speakers</h1>
+            <h2>Explore your online experience</h2>
+        </div>
+    </section>
+  </section>
+  <section id="speakersThing">
+    <div class="fourSplitGrid">
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Dwayne Johnson</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/dwayne.png">
+              </div>
+              <div class="mc-description">
+                American actor, businessman, and former professional wrestler
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>RuPaul</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/rupaul.png">
+              </div>
+              <div class="mc-description">
+                American drag queen, actor, model, singer, television personality, and author
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Oprah Winfrey</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/oprah.png">
+              </div>
+              <div class="mc-description">
+                American talk show host, television producer, actress, author, and philanthropist.
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Robyn Benincasa</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/robyn.png">
+              </div>
+              <div class="mc-description">
+                American endurance racer, adventure racer, author, and motivational speaker
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+    </div>
+    <div class="fourSplitGrid">
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Simon Sinek</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/simon.png">
+              </div>
+              <div class="mc-description">
+                Author of "Start With Why" and inspirational speaker
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Zhang Xin</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/zhang.png">
+              </div>
+              <div class="mc-description">
+                Co-founder and CEO of SOHO China
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Janice Howroyd</span>
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/janice.png">
+              </div>
+              <div class="mc-description">
+                entrepreneur, educator, ambassador, businesswoman, author, and founder and chief executive officer of The ActOne Group
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Barbara Corcoran</span>
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/barbara.png">
+              </div>
+              <div class="mc-description">
+                Angel Investor, Author & Co-Host of "Shark Tank", Real Estate Entrepreneur
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+    </div>
+    <div class="fourSplitGrid">
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Alaa Murabit</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/alaa.png">
+              </div>
+              <div class="mc-description">
+                UN High-Level Commissioner on Health & Economic Growth; Global Sustainable Development Goal Advocate
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Dalila Wilson-Scott</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/dalila.png">
+              </div>
+              <div class="mc-description">
+                Senior Vice President of Community Impact at Comcast & President of the Comcast Foundation
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Brian Chesky</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/brian.png">
+              </div>
+              <div class="mc-description">
+                Co-Founder, CEO & Head of Community at Airbnb
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Rupi Kaur</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/rupi.png">
+              </div>
+              <div class="mc-description">
+                Writer, Artist & Bestselling Author of "Milk and Honey"
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+    </div>
+    <div class="fourSplitGrid">
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Ai-Jen Poo</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/ai-jen poo.png">
+              </div>
+              <div class="mc-description">
+                Executive Director of the National Domestic Workers Alliance; Social Innovator & #TimesUp Activist
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Amanda Nguyen</span>
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/amanda.png">
+              </div>
+              <div class="mc-description">
+                2019 Nobel Peace Prize Nominee & CEO and Founder of Rise
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Chade Meng Tan</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/chade.png">
+              </div>
+              <div class="mc-description">
+                Chief Happiness Officer, Google; Award-winning Entrepreneur and NYC Best-Selling Author
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+      <div>
+          <article class="material-card green">
+            <h2>
+              <span>Christopher Walken</span>
+
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../media/speakers/chris.png">
+              </div>
+              <div class="mc-description">
+                He has appeagreen in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
+              </div>
+            </div>
+            <a class="mc-btn-action">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+
+              <a class="fa fa-fw fa-facebook"></a>
+              <a class="fa fa-fw fa-twitter"></a>
+              <a class="fa fa-fw fa-linkedin"></a>
+            </div>
+          </article>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div id="responsiveFooter">
+      <button class="accordionFt">About</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="../index.html" target="_blank">About FYF</a></li>
+                  <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="../contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Conference</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="../careers/careers.html" target="_blank">Personality Quiz</a></li>
+                <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Speakers</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="speakers.html" target="_blank">Speakers</a></li>
+                <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+                <li><a href="../contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Clusters</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="../careers/careers.html" target="_blank">Careers</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </section>
+</body>
+
+<footer>
+    <div class="fourSplitGrid">
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="../index.html" target="_blank">About FYF</a></li>
+          <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="sponsors.html" target="_blank">Sponsors</a></li>
+          <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Conference</h2>
+        <ul>
+          <li><a href="schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="../careers/careers.html" target="_blank">Personality Quiz</a></li>
+          <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Speakers</h2>
+        <ul>
+          <li><a href="speakers.html" target="_blank">Speakers</a></li>
+          <li><a href="../watch/workshops.html" target="_blank">Watch Workshops</a></li>
+          <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Clusters</h2>
+        <ul>
+          <li><a href="../careers/careers.html" target="_blank">careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </footer>
+
+  <script>
+  $(function () {
+    $(".material-card > .mc-btn-action").click(function () {
+      var card = $(this).parent(".material-card");
+      var icon = $(this).children("i");
+      icon.addClass("fa-spin-fast");
+
+      if (card.hasClass("mc-active")) {
+        card.removeClass("mc-active");
+
+        window.setTimeout(function () {
+          icon
+            .removeClass("fa-arrow-left")
+            .removeClass("fa-spin-fast")
+            .addClass("fa-bars");
+        }, 800);
+      } else {
+        card.addClass("mc-active");
+
+        window.setTimeout(function () {
+          icon
+            .removeClass("fa-bars")
+            .removeClass("fa-spin-fast")
+            .addClass("fa-arrow-left");
+        }, 800);
+      }
+    });
+  });
+
+  </script>
+  <script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+</script>
+
+</html>
