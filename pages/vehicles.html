@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vehicles</title>
+  <link rel="icon" href="media/tsa.ico">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="css/nav.css"/>
+  <link rel="stylesheet" href="particles/particles.css"/>
+  <link rel="stylesheet" href="css/mediaquery.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="scripts.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header id="nav">
+    <a href="#" class="logo">CV TSA</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="vehicles.html">Vechicles</a></li>
+      <li><a href="plantrip.html">Plan Your Trip</a></li>
+      <li><a href="safety.html">Safety/Questions</a></li>
+      <li><a href="launch.html">Launch/Recover</a></li>
+      <!--<li><a href="../login.html">Login</a></li>-->
+      <li>|</li>
+      <li><a href="cte.html">CTE</a></li>
+      <li><a href="cvtsa.html">CV TSA</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="" style="width:40px;"></a>
+    <a href="index.html"> Home</a>
+    <a href="vehicles.html">Vehicles</a>
+    <a href="plantrip.html">Plan Your Trip</a>
+    <a href="safety.html">Safety/Questions</a>
+    <a href="launch.html">Launch/Revocer</a>
+    <a href="cte.html">CTE</a>
+    <a href="cvtsa.html">CV TSA</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="navs()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <script>
+  function navs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<section id="video">
+  <video autoplay muted loop id="myVideo" style="width:100%;">
+    <source src="media/Vehicles.mp4" type="video/mp4">
+  </video>
+  <div id="particles-js"></div>
+  <script src="particles/particles.js"></script>
+  <script src="particles/app.js"></script>
+</section>
+
+
+<section id="rayBradburyQuote">
+      <div class="item" style="background-image: url('https://cdn.pixabay.com/photo/2011/12/15/09/50/lagoon-nebula-11143_960_720.jpg');">
+        <h2 style="color:floralwhite; font:serif;" data-aos="flip-up">“Space travel is life-enhancing, and anything that’s life-enhancing is worth doing. It makes you want to live forever.”
+        </h2>
+        <br>
+        <br>
+        <br>
+        <h3 style="color:floralwhite;" data-aos="flip-up">
+          - Ray Bradbury
+        </h3>
+</section>
+
+<section id="vehiclescaroseul" style="background-color:rgb(45, 115, 159)">
+
+      <div class="item" data-aos="fade-up">
+        <div id="contactDescript1" style="background-color:rgb(45, 115, 159)">
+          <h1>Different Vehicles We Offer</h1>
+        </div>
+        <div class="slides" data-aos="flip-up">
+
+	         <s id="s1"></s>
+	         <s id="s2"></s>
+	         <s id="s3"></s>
+	         <s id="s4"></s>
+
+
+        	<div class="slider">
+        		<div style="background:var(--cream);">
+        			<img src="media/vehicle1.jpg" class="slidesimg">
+              <br>
+              <br>
+              <figcaption class="officerPosition"><b>Spacex's Dragon 2</b></figcaption>
+              <br>
+              <br>
+              <figcaption class="officerPosition">Spacex has innovating and trying to create space vehicles. </figcaption>
+              <br>
+            </div>
+        		<div style="background:var(--cream);">
+          			<img src="media/vehicle2.jpg"class="slidesimg">
+                <figcaption class="officerPosition"><b>Sierra Nevada Corpoation's Dream Chaser</b></figcaption>
+                <br>
+            </div>
+        		<div style="background:var(--cream);">
+          			<img src="media/vehicle3.jpg"class="slidesimg">
+                <figcaption class="officerPosition"><b>Boeing's Starliner</b></figcaption>
+                <br>
+            </div>
+        		<div style="background:var(--cream);">
+        			<img src=""class="slidesimg">
+              <figcaption class="officerPosition"><b>Secretary</b></figcaption>
+              <br>
+            </div>
+        	</div>
+
+        	<div class="prevNext">
+        		<div><a href="#s8"></a><a href="#s2"></a></div>
+        		<div><a href="#s1"></a><a href="#s3"></a></div>
+        		<div><a href="#s2"></a><a href="#s4"></a></div>
+        		<div><a href="#s3"></a><a href="#s5"></a></div>
+            <div><a href="#s4"></a><a href="#s6"></a></div>
+            <div><a href="#s5"></a><a href="#s7"></a></div>
+            <div><a href="#s6"></a><a href="#s8"></a></div>
+            <div><a href="#s7"></a><a href="#s1"></a></div>
+        	</div>
+
+        	<div class="bullets">
+        		<a href="#s1">1</a>
+        		<a href="#s2">2</a>
+        		<a href="#s3">3</a>
+        		<a href="#s4">4</a>
+
+        	</div>
+        </div>
+      </div>
+
+
+</section>
+
+<section data-aos="fade-up" class="halfSplitGrid" style="background-repeat:no-repeat; background-size: cover; background-image:url('https://images.pexels.com/photos/60133/pexels-photo-60133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+  <div class="item">
+    <p></p>
+  </div>
+  <div class="item" data-aos="fade-up">
+    <h1 style="color:rgb(12, 36, 50)">Spacex's Dragon 2</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color:black">Info about Vechicle 1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</section>
+<section data-aos="fade-up" class="halfSplitGrid" style="background-repeat:no-repeat; background-size: cover; background-image:url('https://images.pexels.com/photos/586056/pexels-photo-586056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+  <div class="item" data-aos="fade-up">
+    <h1 style="color:rgb(82, 111, 207)">Sierra Nevada Corpoation's Dream Chaser</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color:rgb(255, 251, 251)">Info about Vechicle 2</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="item">
+  </div>
+</section>
+<section data-aos="fade-up" class="halfSplitGrid" style="background-repeat:no-repeat; background-size: cover;background-image:url('https://images.pexels.com/photos/586056/pexels-photo-586056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+  <div class="item">
+    <p></p>
+  </div>
+  <div class="item" data-aos="fade-up">
+    <h1 style="color:rgb(82, 111, 207)">Boeing's Starliner</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color:rgb(255, 251, 251)">Info about Vechicle 3</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</section>
+
+<script src="aos/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+
+
+<section id="tsapicsBanner">
+  <br>
+  <br>
+  <h1><center>Our Vehicles in Action</center></h1>
+  <br>
+    <div class="row" data-aos="fade-up">
+      <div class="column123" >
+      <img src="media/tsapics/tsa.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa1.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa2.png" style="width:100%" class="zoom">
+      </div>
+      <div class="column123" data-aos="fade-up">
+      <img src="media/tsapics/tsa3.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa4.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa5.png" style="width:100%" class="zoom">
+      </div>
+      <div class="column123" data-aos="fade-up">
+      <img src="media/tsapics/tsa6.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa7.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa8.png" style="width:100%" class="zoom">
+      </div>
+      <div class="column123" data-aos="fade-up">
+      <img src="media/tsapics/tsa9.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa10.png" style="width:100%" class="zoom">
+      <img src="media/tsapics/tsa15.png" style="width:100%" class="zoom">
+      </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div id="responsiveFooter">
+      <button class="accordionFt">About</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="index.html" target="_blank">About FYF</a></li>
+                  <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Conference</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="registration.html" target="_blank">Registration</a></li>
+                <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="careers/careers.html" target="_blank">Personality Quiz</a></li>
+                <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Speakers</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                <li><a href="program/speakers.html" target="_blank">Speakers</a></li>
+                <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Clusters</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="careers/careers.html" target="_blank">Careers</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+</section>
+</body>
+
+
+<footer>
+    <!-- <div class="fourSplitGrid">
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="index.html" target="_blank">About FYF</a></li>
+          <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Conference</h2>
+        <ul>
+          <li><a href="registration.html" target="_blank">Registration</a></li>
+          <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+          <li><a href="careers/careers.html" target="_blank">Personality Quiz</a></li>
+          <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Speakers</h2>
+        <ul>
+          <li><a href="program/speakers.html" target="_blank">Speakers</a></li>
+          <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Clusters</h2>
+        <ul>
+          <li><a href="careers/careers.html" target="_blank">careers</a></li>
+        </ul>
+      </div>
+    </div> -->
+    <p> ©CV TSA. All Rights Reserved</p>
+  </footer>
+  <script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+</script>
+</html>
