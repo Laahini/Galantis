@@ -1527,3 +1527,27 @@ footer a {
     margin: 5% 0%;
     color: var(--cream);
 }
+
+#contactDescript1,
+#mottoD {
+    text-align: center;
+    color: var(--cream);
+    background: url("media/placeholder.png");
+}
+
+#contactDescript1 h1,
+#mottoD h1 {
+    font-size: 65px;
+    background-color: rgb(45, 115, 159);
+}
+
+#contactDescript1 div,
+#mottoD div {
+    padding: 8% 5%;
+    background: rgb(45, 115, 159);
+}
+
+.responsiveimg {
+    width: 100%;
+    height: auto;
+  }
