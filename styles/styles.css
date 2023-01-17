@@ -33,12 +33,17 @@ body
     font-family: 'Cutive Mono', monospace;
 }
 
-.nav-link-hover
+.hover
 {
     transition: ease-in-out 0.5s;
 }
 
-.nav-link-hover:hover
+.hover:hover
 {
     color: #fce8b6 !important;
+}
+
+.tab
+{
+    display: none;
 }
