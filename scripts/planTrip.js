@@ -56,4 +56,16 @@ function fixStepIndicator(n) {
       x[i].className = x[i].className.replace(" opacity-100", "");
     }
     x[n].className += " opacity-100";
+}
+
+function showADTWO()
+{
+  var check = document.getElementById("ad2Check");
+  var ad2 = document.getElementById("ad2");
+
+  if (check.checked == true) {
+    ad2.style.display = "block";
+  } else {
+    ad2.style.display = "none";
   }
+}
