@@ -1,89 +1,46 @@
 <!DOCTYPE html>
-<html LANG="en">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
-  <link rel="icon" href="media/favicon.ico">
-
-  <!--STYLES-->
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="css/stars.css"/>
-  <link rel="stylesheet" href="css/nav.css"/>
-  <link rel="stylesheet" href="css/mediaquery.css"/>
-  <link rel="stylesheet" href="css/typing.css"/>
-  <link rel="stylesheet" href="particles/particles.css"/>
-
-
-  <script src="scripts.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-  <script src="scripts/typing.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/custom.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Home</title>
 </head>
-<script type="text/javascript">
-  if (!Array.isArray(window.qbOptions)) {
-    window.qbOptions = []
-  }
-  window.qbOptions.push({"baseUrl":"https://botsrv2.com","use":"NePdxmo24Ybj8K6Q/5doqer3MZVbR6ZL0"});
-</script>
-<script type="text/javascript" src="https://static.botsrv2.com/website/js/widget2.75d4ea82.min.js" integrity="sha384-s86P3mQ5cJDcJrB5sYTVUiNu3ZKVOcWHQSnZPNS7TZLBhbtRfSlLhpN06B5wRE7t" crossorigin="anonymous" defer data-no-minify="1"></script>
-<script src="scripts/stars.js"></script>
-<body>
-  <header id="nav">
-      <a href="#" class="logo"><img src="media/FYF.png" style="width:50px; height:50px;"></a>
-      <ul>
-        <li><a href="pages/mission.html">Mission</a></li>
-        <li><a href="vehicles.html">Vehicles</a></li>
-        <li><a href="pages/booking.html">Booking</a></li>
-        <li><a href="pages/training.html">Training</a></li>
-        <li><a href="pages/safety.html">Safety</a></li>
-        <li><a href="pages/launch.html">Launch</a></li>
-        <li>|</li>
-        <li><a href="index.html">Design Brief</a></li>
-        <li><a href="cte.html">CTE</a></li>
-        <li><a href="cvtsa.html">CV TSA</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-  </header>
-
-    <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active"><img src="media/FYF.png" style="width:40px;"></a>
-      <a href="pages/mission.html">Mission</a>
-      <a href="pages/vehicles.html">Vehicles</a>
-      <a href="pages/booking.html">Booking</a>
-      <a href="pages/training.html">Training</a>
-      <a href="pages/safety.html">Safety</a>
-      <a href="pages/launch.html">Launch</a>
-      <a href="pages/contact.html">Contact</a>
-      <a href="pages/index.html">Design Brief</a>
-      <a href="pages/cte.html">CTE</a>
-      <a href="pages/cvtsa.html">CV TSA</a>
-      <a href="pages/about.html">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="navs()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
-    <script>
-    function navs() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-    </script>
+<body class="bg-primary">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-secondary">
+        <div class="container-xxl">
+            <a href="../index.html" class="navbar-brand"><img src="" alt="logo"><h1>Galantis</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"><i class="text-primary bi bi-chevron-double-down"></i></button>
+            <div class="collapse navbar-collapse justify-content-end align-self-center text-primary" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover text-secondary-emphasis h6 font-monospace" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover" href="./pages/vehicles.html">Vehicles</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover" href="./pages/booking.html">Plan Your Trip</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover" href="./safety_and_questions/safety.html">Safety</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover" href="./pages/training.html">Training</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover" href="./pages/launch.html">Launch</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary text-decoration-none hover" href="./pages/recovery.html">Recovery</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu bg-secondary text-primary" aria-labelledby="navbarDropdown">
+                            <a href="../pages/cte.html" class="nav-link text-primary text-decoration-none hover">CTE</a>
+                            <a href="../pages/cvtsa.html" class="nav-link text-primary text-decoration-none hover">CVTSA</a>
+                            <a href="../pages/about.html" class="nav-link text-primary text-decoration-none hover">About</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
 
   <section id="banner">
     <div class='solar-syst'>
